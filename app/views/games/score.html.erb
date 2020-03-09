@@ -1,0 +1,20 @@
+<h1>Results</h1>
+
+<% if @include %>
+  <p>hyyy</p>
+<% else %>
+  <p>nnaaannnn</p>
+<% end %>
+
+<% if @english_word %>
+  <p>english ok</p>
+<% else %>
+  <p> arrete tout </p>
+<% end %>
+
+
+
+<p>Your word: <%= @longword %></p>
+
+
+<%= link_to 'Try again', new_path %>
